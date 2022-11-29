@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 34.5px;
+    left: 10px;
+}
+
+header ul {
+    position: absolute;
+    right: 10px;
+    line-height: 69px;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header a {
+    color: seashell;
+    font-size: 1.5rem;
+}
