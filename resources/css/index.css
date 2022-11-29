@@ -4,9 +4,21 @@ html {
 }
 
 body {
+    min-height: 100vh;
     background-color: black;
     font-family: Helvetica;
     opacity: 0.9;
+    font-weight: bold;
+}
+
+h2 {
+    color: seashell;
+    font-size: 2rem;
+}
+
+h4 {
+    color: seashell;
+    font-size: 1.5rem;
 }
 
 /* header */
@@ -70,12 +82,46 @@ header a {
     justify-content: space-around;
 }
 
-.mission-text h2 {
-    color: seashell;
-    font-size: 2rem;
+/* Featured Tea */
+
+.featured-tea-container {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.mission-text h4 {
+.featured-header {
     color: seashell;
-    font-size: 1.5rem;
+    height: 110px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.featured-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-pic {
+    width: 300px;
+}
+
+figure {
+    text-align: center;
+    margin: 10px 15px;
+}
+
+figcaption {
+    color: seashell;
+    margin-top: 10px;
+    font-size: 1.4rem;
 }
