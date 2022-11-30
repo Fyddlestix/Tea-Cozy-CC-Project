@@ -36,6 +36,11 @@ h5 {
     font-size: 1.2rem;
 }
 
+h6 {
+    color: seashell;
+    font-size: 1.1rem;
+}
+
 /* header */
 
 header {
@@ -181,6 +186,8 @@ figcaption {
     align-items: center;
 }
 
+/* Contact Info */
+
 .contact-container {
     position: relative;
     top: 175px;
@@ -189,4 +196,18 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+/* Footer */
+
+footer {
+    height: 80px;
+    position: relative;
+    top: 175px;
+    width: 100%;
+}
+
+footer h6 {
+    margin-left: 20px;
+    line-height: 80px;
 }
