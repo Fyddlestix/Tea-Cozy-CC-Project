@@ -7,8 +7,18 @@ body {
     min-height: 100vh;
     background-color: black;
     font-family: Helvetica;
-    opacity: 0.9;
+    opacity: 0.6;
     font-weight: bold;
+}
+
+h3 {
+    color: seashell;
+    font-size: 2rem;
+}
+
+p {
+    color: seashell;
+    font-size: 1.2rem;
 }
 
 h2 {
@@ -19,6 +29,11 @@ h2 {
 h4 {
     color: seashell;
     font-size: 1.5rem;
+}
+
+h5 {
+    color: seashell;
+    font-size: 1.2rem;
 }
 
 /* header */
@@ -124,4 +139,54 @@ figcaption {
     color: seashell;
     margin-top: 10px;
     font-size: 1.4rem;
+}
+
+/* Locations */
+
+.location-container {
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 175px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#location-marker {
+    position: relative;
+    top: 50px;
+    width: 1200px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+}
+
+.downtown, .east-bayside, .oakdale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-container {
+    position: relative;
+    top: 175px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
